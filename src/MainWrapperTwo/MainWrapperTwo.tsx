@@ -7,7 +7,7 @@ const MainWrapperTwo:React.FC<any> = () => {
     const isLoginContext:any=useContext(authContext)
 
     const content = isLoginContext.isLogin ? (
-        <p>MainWrapperTwo {userContext.name}</p>
+        <p>MainWrapper Two {userContext.name}</p>
           ) : (
          <span>is false</span>
           );
